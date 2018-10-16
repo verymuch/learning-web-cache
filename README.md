@@ -1,0 +1,1 @@
+本文为Web缓存相关的测试脚本，可以结合[浏览器缓存策略](http://localhost:4000/2018/10/09/web-browser-cache-strategy/#22-cache-control)文章进行查看。
