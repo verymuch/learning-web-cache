@@ -1,0 +1,2 @@
+2018/10/09 17:32:38 [error] 14062#0: *1668 kevent() reported that connect() failed (61: Connection refused) while connecting to upstream, client: 127.0.0.1, server: try.cache.cn, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:1030/", host: "try.cache.cn"
+2018/10/09 17:32:39 [error] 14062#0: *1668 kevent() reported that connect() failed (61: Connection refused) while connecting to upstream, client: 127.0.0.1, server: try.cache.cn, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:1030/favicon.ico", host: "try.cache.cn", referrer: "http://try.cache.cn/"

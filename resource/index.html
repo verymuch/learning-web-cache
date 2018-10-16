@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <p>
+    <a href="./index2.html">点我跳转到index2</a>
+  </p>
+  <button id="aaa">新窗口图片</button>
+  <img src="./avatar.jpg" alt="img" width="200" height="200"/>
+  <script>
+    document.getElementById('aaa').onclick = function() {
+      window.open('http://localhost:1030/avatar.jpg', 'newWindow', "menubar=0,scrollbars=1, resizable=1,status=1,titlebar=0,toolbar=0,location=1");
+    }
+  </script>
+  <!-- <img src="./avatar2.jpg" alt="img" width="200" height="200"/> -->
+</body>
+</html>
