@@ -73,6 +73,8 @@ app.use(async (ctx, next) => {
 // 设置缓存
 app.use(async (ctx, next) => {
   // 在此处设置缓存策略
+  ctx.set('Cache-Control', 'max-age=86400000');
+
   const tag = `"${ctx.filemd5}"`;
   const matchTag = ctx.get("If-None-Match");
   if (matchTag === tag) {
